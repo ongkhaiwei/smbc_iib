@@ -23,7 +23,7 @@
         <outTerminals terminalNodeID="Canada" dynamic="true" label="Canada"/>
         <translation xmi:type="utility:ConstantString" string="CheckCountry"/>
         <filterTable filterPattern="$Root/XMLNSC/tns:In_Request/customerDetails/customerCountry='US'" routingOutputTerminal="US"/>
-        <filterTable filterPattern="$Root/XMLNSC/tns:In_Request/customerDetails/customerCountry='CA'" routingOutputTerminal="Canada"/>
+        <filterTable filterPattern="$Root/XMLNSC/tns:In_Request/customerDetails/customerCountry='CA'" routingOutputTerminal="US"/>
         <nsMappingTable nsPrefix="tns" namespace="http://www.ibm.lab.com"/>
       </nodes>
       <nodes xmi:type="ComIbmTrace.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_5" location="194,196" destination="file" filePath="c:\IntroLabTrace.txt" pattern="=============================================================&#xD;&#xA;${Root}&#xD;&#xA;=============================================================&#xD;&#xA;${LocalEnvironment}&#xD;&#xA;=============================================================&#xD;&#xA;${ExceptionList}&#xD;&#xA;">
